@@ -1,0 +1,132 @@
+body { 
+    font-family: 'Arial', sans-serif; 
+    background-image: url("./img/labuanbajo.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 0; 
+    margin: 0; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav-logo {
+    height: 70px;
+    width: auto;
+    border-radius: 5px;
+}
+.nav { 
+    background-image: url("./img/sunset.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 4px; 
+    padding-bottom: 4px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.nav a { 
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    display: inline-block;
+}
+
+.nav a:hover {
+    color: #e0d6ff;
+    background-color: #29003c; 
+}
+
+.titlespace {
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center; 
+    padding: 20px;
+    color: #5d0079;
+    background-image: url("./img/addbodyback.avif");
+    align-self: center;
+    width: auto;
+}
+.titlespace h1 {
+    margin: 0; 
+}
+.form-container { 
+    background-color: white; 
+    padding: 30px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    width: 100%; 
+    max-width: 500px; 
+    margin: 20px auto;
+    flex-grow: 1;
+}
+fieldset { 
+    border: 1px solid #b2dfdb; 
+    border-radius: 6px; 
+    padding: 20px; 
+}
+legend { 
+    color: #00bcd4; 
+    font-weight: bold; 
+    padding: 0 10px; 
+}
+.table-input tr td:first-child { 
+    font-weight: bold; 
+    color: #555; 
+    width: 150px; 
+}
+.table-input input[type="text"], 
+.table-input input[type="number"], 
+.table-input textarea { 
+    width: 160%;
+    padding: 10px; 
+    margin: 5px 0; 
+    border: 1px solid #b2dfdb; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    resize: none;
+}
+.submit { 
+    background-color: #ff9800; 
+    color: white; 
+    padding: 12px 20px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 15px; 
+    width: 132.5%;
+    font-size: 1em; 
+    transition: background-color 0.3s; 
+}
+.submit:hover { 
+    background-color: #fb8c00;
+}
+.but a button { 
+    background-image: url("./img/leaf.avif");
+    background-position: center;
+    background-size: cover;
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 20px; 
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+}
+.but a button:hover { 
+    background-color: #002e1c; 
+}
+.footer { 
+    text-align: center; 
+    padding: 20px; 
+    background-image:url("./img/brick.png");
+    background-position: center;
+    background-size: cover;
+    color: white; 
+    margin-top: 40px;
+}

@@ -1,0 +1,130 @@
+body { 
+    font-family: 'Arial', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-image:url("./img/hill.jpeg");
+    background-position: center;
+    background-size: cover;
+    color: #333; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav-logo {
+    height: 60px;
+    width: auto;
+    border-radius: 5px;
+}
+.nav { 
+    background-image: url("./img/leaf.avif");
+    background-position: center;
+    background-size: cover;
+    padding-top: 4px; 
+    padding-bottom: 4px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.nav a { 
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    display: inline-block;
+}
+.nav a:hover { 
+    color: #cdffb7;
+    background-color: #01250c; 
+}
+
+.titlespace { 
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center; 
+    padding: 20px;
+    color: #00796b;
+    background-image: url("./img/logbodyback.avif");
+    align-self: center;
+    width: auto;
+}
+.titlespace h1 {
+    margin: 0; 
+}
+.container { 
+    max-width: 1200px; 
+    margin: 30px auto; 
+    padding: 0 20px; 
+    flex-grow: 1;
+}
+.actions { 
+    margin-bottom: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.actions a button { 
+    background-color: #009dff; 
+    color: white; 
+    padding: 10px 15px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 1em; 
+    transition: background-color 0.3s; 
+}
+.actions a button:hover { 
+    background-color: #1c50d4; 
+}
+.actions .logout a { 
+    color: #ffffff; 
+    background-color: #ac0000;
+    font-weight: bold; 
+    padding: 10px 15px;
+    border-radius: 5px; 
+    font-size: 1em; 
+    transition: background-color 0.3s; 
+}
+.actions .logout a:hover { 
+    background-color: #7f0404; 
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    background-color: white; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+th, td { 
+    padding: 12px 15px; 
+    border: 1px solid #ddd; 
+    text-align: left; 
+}
+th { 
+    background-color: #e0f7fa;
+    color: #00796b; 
+}
+tr:nth-child(even) { 
+    background-color: #f9f9f9; 
+}
+td a { 
+    text-decoration: none; 
+    color: #00bcd4; 
+    margin-right: 10px; 
+    transition: color 0.3s; 
+}
+td a:hover { 
+    color: #00796b; 
+}
+.delete-btn { 
+    color: #d32f2f; 
+}
+.footer { 
+    text-align: center; 
+    padding: 20px; 
+    background-image:url("./img/brick.png");
+    background-position: center;
+    background-size: cover;
+    color: white; 
+    margin-top: 40px;
+}

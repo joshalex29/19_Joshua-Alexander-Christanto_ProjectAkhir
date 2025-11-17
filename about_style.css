@@ -1,0 +1,129 @@
+body { 
+    font-family: 'Arial', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-image:url("./img/bodyback.png");
+    background-position: center;
+    background-size: cover;
+    color: #333; 
+}
+h2 {
+    color: #622700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+.nav-logo {
+    height: 60px;
+    width: auto;
+    border-radius: 5px;
+}
+.nav { 
+    background-image: url("./img/darkwood.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 4px; 
+    padding-bottom: 4px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.nav a { 
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    display: inline-block;
+}
+.nav a:hover { 
+    color: #fff9b7;
+    background-color: #3c1600; 
+}
+
+.section-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 30px; 
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+.section-content img{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+}
+
+.section-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.section-content li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.highlight {
+    color: #00796b;
+    font-weight: bold;
+}
+
+.team-member {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border-left: 5px solid #00bcd4;
+}
+
+.team-member h4 {
+    color: #00796b; 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 0.9em;
+    color: #555;
+    margin: 0;
+}
+.wisata-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px;
+    margin-top: 20px;
+}
+.footer { 
+    text-align: center; 
+    padding: 20px; 
+    background-image:url("./img/brick.png");
+    background-position: center;
+    background-size: cover;
+    color: white; 
+    margin-top: 40px;
+}
+@media (max-width: 600px) {
+    h2 { 
+        font-size: 1.5em; 
+    }
+    .section-content { 
+        padding: 15px; 
+    }
+}
